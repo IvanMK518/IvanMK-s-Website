@@ -3,7 +3,11 @@ import React from 'react'
 const Home = () => {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Parrallax pages={4}>
+        <ParrallaxLayer offset={0} speed = {1} factpr={2} style={}/>
+        <ParrallaxLayer offset={0} speed = {1} factpr={2} style={}/>
+        <ParrallaxLayer offset={0} speed = {1} factpr={2} style={}/>
+      </Parrallax>
     </div>
   )
 }

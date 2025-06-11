@@ -16,6 +16,10 @@ const Nav = () => {
 
           <a href = '/Portfolio'><Button2 text='Portfolio'/></a>
 
+          <a href = '/Filler'><Button2 text='Filler'/></a>
+
+
+
       </nav>
       </header>  
       </div>
