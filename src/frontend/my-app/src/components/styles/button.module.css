@@ -1,0 +1,22 @@
+.btn{
+    font-family: "Nunito", sans-serif;
+    padding: .75vh 3.85vh;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: calc(.5*(1vh + 1vw));
+    font-weight: 600;
+    float: right;
+    margin-left: 2vh;
+    background-color: rgba(255,255,255,.1);
+    color: black;
+    transition: background 700ms;
+    text-decoration: None;
+    margin-bottom: .75vh;
+  }
+
+  .btn:hover{
+    background-color: rgba(153,0,0,.1);
+    color: rgba(153,0,0,1);
+    text-decoration: underline;
+  }

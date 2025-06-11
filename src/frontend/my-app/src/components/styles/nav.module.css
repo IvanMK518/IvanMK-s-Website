@@ -1,0 +1,21 @@
+.header { 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    position: fixed;
+    height: 9vh;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 20px 100px;
+    background:rgba(255,255,255,.9);
+    z-index: 100;
+    margin-bottom: 9vh;
+}
+
+.nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
