@@ -1,5 +1,6 @@
 import React, {useState} from "react";
-import styles from "./styles/nav.module.css"
+import styles from "../styles/nav.module.css"
+import Button from "../functions/Button";
 
 
 const Nav = () => {
@@ -13,11 +14,11 @@ const Nav = () => {
       <header className={styles.header}>
       <nav className={styles.nav}> 
 
-          <a href='/About'><Button2 text='About me'/></a>
+          <a href='/About'><Button text='About me'/></a>
          
-          <a href = '/Portfolio'><Button2 text='Portfolio'/></a>
+          <a href = '/Portfolio'><Button text='Portfolio'/></a>
 
-          <a href = '/Filler'><Button2 text='Filler'/></a>
+          <a href = '/Filler'><Button text='Filler'/></a>
 
 
 

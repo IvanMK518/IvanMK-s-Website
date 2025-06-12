@@ -1,13 +1,15 @@
 import React from 'react'
+import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+import '../styles/home.module.css'
 
 const Home = () => {
   return (
     <div>
-      <Parrallax pages={4}>
-        <ParrallaxLayer offset={0} speed = {1} factpr={2} style={}/>
-        <ParrallaxLayer offset={0} speed = {1} factpr={2} style={}/>
-        <ParrallaxLayer offset={0} speed = {1} factpr={2} style={}/>
-      </Parrallax>
+      <Parallax pages={4}>
+        <ParallaxLayer offset={0} speed = {1} factor={2} />
+        <ParallaxLayer offset={0} speed = {1} factor={2} />
+        <ParallaxLayer offset={0} speed = {1} factor={2} />
+      </Parallax>
     </div>
   )
 }

@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Home from "./components/Pages/Home";
 import Nav from "./components/Navigation/Nav";
 import Portfolio from "./components/Pages/Portfolio";
+import About from "./components/Pages/About";
 
 function App() {
   return (
