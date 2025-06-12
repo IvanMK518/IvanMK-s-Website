@@ -1,22 +1,14 @@
-.btn{
-    font-family: "Nunito", sans-serif;
-    padding: .75vh 3.85vh;
-    border: none;
+.btn {
+    margin-left: 20px;
+    padding: 9px 25px;
     border-radius: 5px;
+    background-color: rgba(153,0,0,0.7);
+    border: none;
     cursor: pointer;
-    font-size: calc(.5*(1vh + 1vw));
-    font-weight: 600;
-    float: right;
-    margin-left: 2vh;
-    background-color: rgba(255,255,255,.1);
-    color: black;
-    transition: background 700ms;
-    text-decoration: None;
-    margin-bottom: .75vh;
-  }
+    transition: all 0.3s ease 0s;
+}
 
-  .btn:hover{
-    background-color: rgba(153,0,0,.1);
-    color: rgba(153,0,0,1);
-    text-decoration: underline;
-  }
+.btn:hover {
+    background-color: rgba(153,0,0,0.8);
+    color: white;
+}
