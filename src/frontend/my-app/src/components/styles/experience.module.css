@@ -1,0 +1,26 @@
+.wrapper {
+    margin: 7vh;
+    position: flex;
+    max-width: 50%;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 10px;
+    max-height: 5000px;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.wrapper2 {
+    margin: 7vh;
+    position: flex;
+    max-width: 75%;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 10px;
+    max-height: 5000px;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
