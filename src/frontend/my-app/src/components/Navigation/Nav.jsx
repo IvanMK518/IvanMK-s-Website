@@ -10,15 +10,15 @@ const Nav = () => {
     
       <div className={styles.nav}>
      
-      
       <header className={styles.header}>
+      <a href='/'><Button text='Home'/></a>
       <nav className={styles.nav}> 
 
           <a href='/About'><Button text='About me'/></a>
          
           <a href = '/Portfolio'><Button text='Portfolio'/></a>
 
-          <a href = '/Filler'><Button text='Filler'/></a>
+          <a href = '/'><Button text='Filler'/></a>
 
 
 
