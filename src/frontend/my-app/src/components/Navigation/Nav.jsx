@@ -15,14 +15,14 @@ const Nav = () => {
 
       <nav> 
         <ul className={styles.list}>
-          <li><a href='/About'><Button text='About me'/></a></li>
+          <li><a href='/Experience'><Button text='Experience'/></a></li>
           <li><a href = '/Portfolio'><Button text='Portfolio'/></a></li>
           <li><a href = '/Gallery'><Button text='Gallery'/></a></li>
-          <li><a href = '/Contact'><Button text='Contact'/></a></li>
+          <li><a href = '/Contact'><Button text='About Me'/></a></li>
 
         </ul>
       </nav>
-      
+
       </header>  
       </div>
   )
