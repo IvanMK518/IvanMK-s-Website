@@ -1,15 +1,17 @@
+
+
 .main {
    box-sizing: border-box;
    margin: 0;
    padding: 0;
-   background-color: black;
+   background-color: transparent;
 }
 
 .header { 
     display: flex;
     justify-content: flex-end; 
     align-items: center;
-    padding: 20px 10%;
+    padding: 20px 3%;
 }
 
 .logo{
@@ -23,7 +25,7 @@
 
 .list li { 
    display: inline-block;
-   padding: 0px 20px;
+   padding: 0px 1vh;
 }
 
 .list li a { 

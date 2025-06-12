@@ -1,8 +1,8 @@
 .btn {
-    margin-left: 20px;
-    padding: 9px 25px;
-    border-radius: 5px;
-    background-color: rgba(0,0,0,0.7);
+    margin-left: 2vh;
+    padding: 1.5vh 3vh;
+    border-radius: 50px;
+    background-color: rgba(0,0,0,0.1);
     border: none;
     cursor: pointer;
     transition: all 0.3s ease 0s;
