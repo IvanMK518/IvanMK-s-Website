@@ -18,8 +18,7 @@ const Nav = () => {
           <li><a href='/Experience'><Button text='Experience'/></a></li>
           <li><a href = '/Portfolio'><Button text='Portfolio'/></a></li>
           <li><a href = '/Gallery'><Button text='Gallery'/></a></li>
-          <li><a href = '/Contact'><Button text='About Me'/></a></li>
-
+          <li><a href = '/About'><Button text='About Me'/></a></li>
         </ul>
       </nav>
 

@@ -4,6 +4,7 @@ import Nav from "./components/Navigation/Nav";
 import Portfolio from "./components/Pages/Portfolio";
 import Experience from "./components/Pages/Experience";
 import About from "./components/Pages/About";
+import Gallery from "./components/Pages/Gallery";
 
 function App() {
   return (
@@ -29,6 +30,11 @@ function App() {
         <Route exact path = "/About">
             <Nav/>
             <About/>
+        </Route>
+        
+        <Route exact path = "/Gallery">
+            <Nav/>
+            <Gallery/>
         </Route>
 
       </Switch>
