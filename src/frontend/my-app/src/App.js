@@ -18,19 +18,19 @@ function App() {
             <Home/>
         </Route>
 
-        <Route exact path = "#/Experience">
+        <Route exact path = "/Experience">
             <Experience/>
         </Route>
 
-        <Route exact path = "Portfolio">
+        <Route exact path = "/Portfolio">
             <Portfolio/>
         </Route>
 
-        <Route exact path = "About">
+        <Route exact path = "/About">
             <About/>
         </Route>
         
-        <Route exact path = "Gallery">
+        <Route exact path = "/Gallery">
             <Gallery/>
         </Route>
 
