@@ -1,47 +1,23 @@
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
-import Home from "./components/Pages/Home";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./components/Navigation/Nav";
-import Portfolio from "./components/Pages/Portfolio";
+import Home from "./components/Pages/Home";
 import Experience from "./components/Pages/Experience";
+import Portfolio from "./components/Pages/Portfolio";
 import About from "./components/Pages/About";
 import Gallery from "./components/Pages/Gallery";
 
-
 function App() {
   return (
-    <div className="App">
-     <Router>
-     
-      <Switch>
-
-        <Route exact path = "/">
-        <Nav/>
-            <Home/>
-        </Route>
-
-        <Route exact path = "/Experience">
-        <Nav/>
-            <Experience/>
-        </Route>
-
-        <Route exact path = "/Portfolio">
-        <Nav/>
-            <Portfolio/>
-        </Route>
-
-        <Route exact path = "/About">
-        <Nav/>
-            <About/>
-        </Route>
-        
-        <Route exact path = "/Gallery">
-        <Nav/>
-            <Gallery/>
-        </Route>
-
-      </Switch>
-     </Router>
-    </div>
+    <Router>
+      <Nav />                            {/* ← now outside Routes */}
+      <Routes>
+        <Route index element={<Home/>} />
+        <Route path="/Experience" element={<Experience/>} />
+        <Route path="/Portfolio" element={<Portfolio/>} />
+        <Route path="/About" element={<About/>} />
+        <Route path="/Gallery" element={<Gallery/>} />
+      </Routes>
+    </Router>
   );
 }
 
