@@ -5,6 +5,10 @@ import '../styles/home.module.css'
 const Home = () => {
   return (
     <div>
+
+      <div>
+        <h1>Home</h1>
+      </div>
       <Parallax pages={4}>
         <ParallaxLayer offset={0} speed = {1} factor={2} />
         <ParallaxLayer offset={0} speed = {1} factor={2} />
