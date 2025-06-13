@@ -9,14 +9,19 @@ import Gallery from "./components/Pages/Gallery";
 function App() {
   return (
     <Router>
-      <Nav/>                   
+
+      <Nav/> 
+                        
       <Routes>
+
         <Route index element={<Home/>} />
         <Route path="/Experience" element={<Experience/>} />
         <Route path="/Portfolio" element={<Portfolio/>} />
         <Route path="/About" element={<About/>} />
         <Route path="/Gallery" element={<Gallery/>} />
+
       </Routes>
+
     </Router>
   );
 }
