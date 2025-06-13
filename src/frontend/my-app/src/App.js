@@ -11,31 +11,35 @@ function App() {
   return (
     <div className="App">
      <Router>
-      <Nav>
+     
       <Switch>
 
         <Route exact path = "/">
+         <Nav/>
             <Home/>
         </Route>
 
         <Route exact path = "/Experience">
+         <Nav/>
             <Experience/>
         </Route>
 
         <Route exact path = "/Portfolio">
+         <Nav/>
             <Portfolio/>
         </Route>
 
         <Route exact path = "/About">
+         <Nav/>
             <About/>
         </Route>
         
         <Route exact path = "/Gallery">
+         <Nav/>
             <Gallery/>
         </Route>
 
       </Switch>
-      </Nav>
      </Router>
     </div>
   );
