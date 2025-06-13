@@ -9,7 +9,7 @@ import Gallery from "./components/Pages/Gallery";
 function App() {
   return (
     <Router>
-      <Nav />                            {/* ← now outside Routes */}
+      <Nav/>                   
       <Routes>
         <Route index element={<Home/>} />
         <Route path="/Experience" element={<Experience/>} />
