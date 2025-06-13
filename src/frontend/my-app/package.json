@@ -1,7 +1,6 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://IvanMK518.github.io/IvanMK-s-Website",
   "private": true,
   "dependencies": {
     "@react-spring/parallax": "^10.0.1",
